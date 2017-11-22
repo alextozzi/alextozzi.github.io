@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "A project focusing on React and related tools",
   "main": "index.js",
+  "homepage": "https://alextozzi.github.io/",
   "scripts": {
-    "start": "./node_modules/.bin/webpack-dev-server"
+    "deploy": "./node_modules/.bin/gh-pages -d build",
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack"
   },
   "author": "Eve Porcello",
   "license": "MIT",
@@ -25,6 +28,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
+    "gh-pages": "^1.1.0",
     "jquery": "^3.0.0",
     "popper.js": "^1.11.0",
     "react": "^15.3.2",
