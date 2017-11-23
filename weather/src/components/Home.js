@@ -2,17 +2,22 @@ var today = new Date();
 
 
 export const Home = () =>
+    <div className="container">
+        <div id="first" style={{height: '100vh', marginTop: '100px'}}>
+            <h1 className="text-center" style={{marginTop: '50px', marginBottom: '50px'}}>This is the first Div</h1>
+            <div className="row">
+                <div className="col-md-4">test</div>
+                <div className="col-md-4">test</div>
+                <div className="col-md-4">test</div>
 
-    <div id="first" style={{ height: '100vh', marginTop:'50px'}} >
-        <h1>This is the first Div</h1>
-        <div className="row">
-            <div className="col-md-4">test</div>
-            <div className="col-md-4">test</div>
-            <div className="col-md-4">test</div>
+            </div>
+
         </div>
-
     </div>
 
+function test(){
+
+}
 
 /*
 function tick() {

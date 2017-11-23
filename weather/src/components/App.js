@@ -3,7 +3,6 @@ import {Menu} from './Menu'
 import {Home} from './Home'
 import {About} from "./About"
 import {Contact} from './Contact'
-import 'bootstrap/dist/css/bootstrap.css'
 
 
 let today = new Date();
