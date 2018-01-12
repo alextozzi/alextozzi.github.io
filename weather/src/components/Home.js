@@ -6,7 +6,7 @@ export const Home = () =>
         <div id="first" style={{height: '100vh', marginTop: '100px'}}>
             <h1 className="text-center" style={{marginTop: '50px', marginBottom: '50px'}}>This is the first Div</h1>
             <div className="row">
-                <div className="col-md-4">test</div>
+                <div className="col-md-4">Home page</div>
                 <div className="col-md-4">test</div>
                 <div className="col-md-4">test</div>
 
