@@ -22972,7 +22972,7 @@
 	                React.createElement(
 	                    "div",
 	                    { className: "col-md-4" },
-	                    "test"
+	                    "Home page"
 	                ),
 	                React.createElement(
 	                    "div",
