@@ -26,9 +26,6 @@ export class App extends Component {
                 <Menu/>
                 <Home/>
                 <About/>
-                <Contact />
-
-
             </div>
         )
     }

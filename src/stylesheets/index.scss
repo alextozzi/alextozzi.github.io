@@ -12,3 +12,37 @@ div.app {
 h1, label {
   margin: 0
 }
+.navbar.navbar-inverse.navbar-fixed-top {
+  background:black !important;
+}
+
+#first {
+  //background: radial-gradient(circle farthest-corner at 200px 0, #414141, #000);
+  background: linear-gradient(to bottom, #000, #414141 );
+  color:white;
+}
+
+#second {
+  height:100vh;
+  background: linear-gradient(to bottom, #414141,#000 );
+  color:white;
+}
+
+#section-2 {
+padding-top:200px;
+}
+
+#joke-page{
+  h1 {
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:30px;
+    font-size:22px;
+    color:white;
+    background-color: #000;
+  }
+  a {
+
+    text-align:center;
+  }
+}
